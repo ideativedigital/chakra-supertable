@@ -1,0 +1,57 @@
+{
+  "name": "chakra-supertable",
+  "version": "0.1.0",
+  "description": "A composable, feature-rich table component for React with Chakra UI",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "example:dev": "pnpm --filter example storybook dev -p 6006",
+    "example:build": "pnpm --filter example build-storybook"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "@chakra-ui/react": "^3.0.0",
+    "react-icons": "^5.0.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^3.0.0",
+    "@emotion/react": "^11.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/react": "^18.2.0",
+    "jsdom": "^25.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.0",
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^2.0.0"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "chakra-ui",
+    "super-table",
+    "data-table"
+  ],
+  "license": "MIT"
+}
