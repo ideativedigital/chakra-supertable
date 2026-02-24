@@ -4,9 +4,9 @@ A composable, feature-rich table component for React with Chakra UI.
 
 ## Storybook
 
-Live Storybook: `https://ideativedigital.github.io/super-table/`
+Live Storybook: `https://ideativedigital.github.io/chakra-supertable/`
 
-[![Deploy Storybook](https://github.com/ideativedigital/super-table/actions/workflows/deploy-storybook.yml/badge.svg)](https://github.com/ideativedigital/super-table/actions/workflows/deploy-storybook.yml)
+[![Deploy Storybook](https://github.com/ideativedigital/chakra-supertable/actions/workflows/deploy-storybook.yml/badge.svg)](https://github.com/ideativedigital/chakra-supertable/actions/workflows/deploy-storybook.yml)
 
 ## Features
 
