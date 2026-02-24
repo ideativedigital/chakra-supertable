@@ -1,4 +1,4 @@
-# chakra-super-table
+# chakra-supertable
 
 A composable, feature-rich table component for React with Chakra UI.
 
@@ -20,9 +20,9 @@ Live Storybook: `https://ideativedigital.github.io/super-table/`
 ## Installation
 
 ```bash
-npm install chakra-super-table
+npm install chakra-supertable
 # or
-pnpm add chakra-super-table
+pnpm add chakra-supertable
 ```
 
 ### Peer Dependencies
@@ -36,7 +36,7 @@ npm install react @chakra-ui/react @fortawesome/pro-regular-svg-icons @fortaweso
 ## Quick Start
 
 ```tsx
-import { SuperTable } from "chakra-super-table";
+import { SuperTable } from "chakra-supertable";
 
 function UsersTable({ users, isLoading }) {
   return (
@@ -195,7 +195,7 @@ Custom loading state component. Use for spinners or custom loading UI.
 ## Full Example
 
 ```tsx
-import { SuperTable } from "chakra-super-table";
+import { SuperTable } from "chakra-supertable";
 import { Badge, Button, HStack, Spinner, Text, VStack } from "@chakra-ui/react";
 
 function ProductsTable({ products, isLoading, searchQuery }) {

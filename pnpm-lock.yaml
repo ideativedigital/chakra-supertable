@@ -56,7 +56,7 @@ importers:
       '@emotion/react':
         specifier: ^11.0.0
         version: 11.14.0(@types/react@18.3.28)(react@18.3.1)
-      chakra-super-table:
+      chakra-supertable:
         specifier: workspace:*
         version: link:..
       react:

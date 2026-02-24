@@ -1,7 +1,7 @@
 import { Badge } from '@chakra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import type { SortDirection } from 'chakra-super-table'
-import { SuperTable } from 'chakra-super-table'
+import type { SortDirection } from 'chakra-supertable'
+import { SuperTable } from 'chakra-supertable'
 import { useCallback, useState } from 'react'
 
 const meta: Meta = {

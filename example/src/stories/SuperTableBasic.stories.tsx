@@ -1,6 +1,6 @@
 import { Badge, HStack, Text } from '@chakra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { SuperTable } from 'chakra-super-table'
+import { SuperTable } from 'chakra-supertable'
 
 const users = [
   { id: '1', name: 'Alice Johnson', email: 'alice@example.com', role: 'Admin' },

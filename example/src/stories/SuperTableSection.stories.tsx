@@ -1,6 +1,6 @@
 import { Badge } from '@chakra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { SuperTable } from 'chakra-super-table'
+import { SuperTable } from 'chakra-supertable'
 
 type SectionArgs = {
   collapsible: boolean

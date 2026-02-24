@@ -1,6 +1,6 @@
 import { Badge, Button } from '@chakra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { SuperTable } from 'chakra-super-table'
+import { SuperTable } from 'chakra-supertable'
 import { useCallback, useState } from 'react'
 
 const meta: Meta = {

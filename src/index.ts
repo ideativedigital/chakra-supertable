@@ -1,5 +1,5 @@
 /**
- * chakra-super-table
+ * chakra-supertable
  *
  * A composable, feature-rich table component for React with Chakra UI.
  *
@@ -67,7 +67,7 @@ import { SuperTableTh } from './SuperTableTh'
  *
  * @example
  * ```tsx
- * import { SuperTable } from 'chakra-super-table'
+ * import { SuperTable } from 'chakra-supertable'
  *
  * function UsersTable({ users, loading, searchQuery }) {
  *   return (
