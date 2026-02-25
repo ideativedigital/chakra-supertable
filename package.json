@@ -1,6 +1,6 @@
 {
   "name": "@ideative/chakra-supertable",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0",
   "description": "A composable, feature-rich table component for React with Chakra UI",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
