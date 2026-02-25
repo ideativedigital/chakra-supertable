@@ -20,9 +20,9 @@ A composable, feature-rich table component for React with Chakra UI.
 ## Installation
 
 ```bash
-npm install chakra-supertable
+npm install @ideative/chakra-supertable
 # or
-pnpm add chakra-supertable
+pnpm add @ideative/chakra-supertable
 ```
 
 ### Peer Dependencies
